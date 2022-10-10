@@ -1,3 +1,15 @@
 .hero {
     background-color: rgb(0, 188, 212);
 }
+
+.hero__description {
+    font-size: 20px;
+    // line-height: 1.15;
+    text-align: center;
+}
+
+.hero__button {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
