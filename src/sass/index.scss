@@ -1,5 +1,15 @@
 @import './common';
 
+@import './utils/reset';
+
+@import './components/section';
+
 @import './sections/s00_header';
 @import './sections/s01_hero';
+@import './sections/s02_results';
+@import './sections/s03_programs';
+@import './sections/s04_description';
+@import './sections/s05_about_trainer';
+@import './sections/s06_reviews';
+@import './sections/s07_have_a_question';
 @import './sections/s99_footer';

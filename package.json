@@ -2,7 +2,7 @@
   "name": "project-fitness-trainer",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/project-fitness-trainer",
+  "homepage": "https://mykhailohurak.github.io/project-fitness-trainer",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
