@@ -1,11 +1,42 @@
-.hero {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+// .hero {
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding-top: 100px;
+//     padding-bottom: 100px;
 
-    background-color: rgb(0, 188, 212);
-}
+//     background-color: rgb(0, 188, 212);
+// }
+
+.hero {
+    padding-top: 220px;
+    padding-bottom: 120px;
+    margin: 0 auto;
+    // background-image: rgb(0, 188, 212);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/img3.png);
+    }
+
+    // @media screen and (min-width: 768px) {
+    //     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+    //             rgba(47, 48, 58, 0.4)),
+    //         url(../images/s1-hero/s1-hero-tab-768x400-1x.jpg);
+    // }
+
+    // @media screen and (min-width: 1200px) {
+    //     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+    //             rgba(37, 44, 121, 0.4)),
+    //         url(../images/s1-hero/s1-hero-web-1600x600-1x.jpg);
+    //     }
+
+    //     padding-top: 200px;
+    //     padding-bottom: 200px;
+    // }
+// }
 
 .hero__title {
     padding-bottom: 20px;
@@ -15,7 +46,7 @@
     text-align: center;
     text-transform: uppercase;
 
-    color: #ffffff;
+    color: #e8f001;
 }
 
 .hero__description {
@@ -25,7 +56,7 @@
     font-size: 20px;
     text-align: center;
 
-    color: #363535;
+    color: #d7d7d7;
 }
 
 .hero__button {
@@ -42,6 +73,6 @@
 
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-
-    background-color: #ffa500;
+    color: #e8f001;
+    background-color: #00bcd4;
 }

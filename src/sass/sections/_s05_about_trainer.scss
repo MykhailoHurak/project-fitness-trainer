@@ -1,5 +1,27 @@
 .about-trainer {
-    background-color: rgb(0, 188, 212);
+    // background-color: rgb(0, 188, 212);
+        padding-top: 50px;
+            padding-bottom: 200px;
+            margin: 0 auto;
+            // background-image: rgb(0, 188, 212);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../images/img2.png);
+}
+
+.about-trainer__title {
+    padding-bottom: 50px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #e8f001;
 }
 
 .about__introduce {
@@ -7,9 +29,10 @@
 
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
-    text-align: center;
+    // text-align: center;
     
-    color: #363535;
+    color: #ffffff;
+    padding-bottom: 50px;
 }
 
 .about__item {
@@ -17,7 +40,7 @@
     font-size: 18px;
     color: #ffffff;
 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     &:last-child {
             margin-bottom: 0;
         }
