@@ -25,7 +25,7 @@
 .container__position {
     position: relative;
     background-color: #fafafa;
-    margin-top: 29px;
+    // margin-top: 29px;
     padding: 43px 50px 14px 50px;
 
     &::before {
@@ -108,6 +108,7 @@
 .reviews__img {
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 .reviews__details {
