@@ -4,6 +4,10 @@
     margin-right: auto;
     margin-left: auto;
 
+    // @media screen and (min-width: 320px) {
+    //     width: 320px;
+    // }
+
     @media screen and (min-width: 480px) {
         width: 480px;
     }
@@ -12,13 +16,13 @@
         width: 768px;
     }
 
-    @media screen and (min-width: 1200px) {
-        width: 1200px;
+    @media screen and (min-width: 1024px) {
+        width: 1024px;
     }
 }
 
-.container__hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+// .container__hero {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
