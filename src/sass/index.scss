@@ -10,12 +10,13 @@
 // @import './components/modal-programs2';
 // @import './components/modal-programs3';
 
-@import './sections/s00_header';
-@import './sections/s01_hero';
-// @import './sections/s02_results';
-// @import './sections/s03_programs';
-// @import './sections/s04_description';
-@import './sections/s05_about_trainer';
-// @import './sections/s06_reviews';
-// @import './sections/s07_have_a_question';
-// @import './sections/s99_footer';
+@import './sections/header';
+@import './sections/hero';
+@import './sections/about_trainer';
+@import './sections/programs';
+
+// @import './sections/results';
+// @import './sections/description';
+// @import './sections/reviews';
+// @import './sections/have_a_question';
+// @import './sections/footer';
