@@ -3,21 +3,59 @@
 // }
 
 .description__title {
-    padding-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 34px;
+    font-weight: 700;
     line-height: 1.15;
-    text-align: center;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
+    text-align: center;
     color: #00c0ca;
+
+    font-size: 28px;
+    padding-bottom: 40px;
+
+    @media screen and (min-width: 480px) {
+        font-size: 32px;
+        padding-bottom: 40px;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 36px;
+        padding-bottom: 40px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 .description__description {
-    padding-bottom: 40px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    // text-transform: uppercase;
     text-align: center;
+    color: rgb(64, 64, 64);
+
+    font-size: 20px;
+    padding-bottom: 30px;
+
+    @media screen and (min-width: 480px) {
+        font-size: 22px;
+        padding-bottom: 32px;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+        padding-bottom: 34px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        font-size: 26px;
+        padding-bottom: 36px;
+    }
 }
 
 .advantage {
@@ -27,7 +65,7 @@
         flex-wrap: wrap;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1024px) {
         align-items: center;
     }
 }
@@ -45,7 +83,7 @@
         flex-grow: 1;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1024px) {
         flex-basis: calc((100% - 8 * 15px) / 4);
     }
 }
@@ -54,10 +92,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9af3ff7a;
+    // background-color: #9af3ff7a;
     // background-color: #f5f4fa;
     height: 120px;
-    margin-bottom: 30px;
+    // width: 120px;
+    // margin-bottom: 30px;
+    // padding-left: 20px;
+
+    // border-radius: 50%;
 }
 
 .advantage__icon {
@@ -75,9 +117,9 @@
     text-align: center;
     color: #212121;
 
-    @media screen and (min-width: 768px) {
-        text-align: left;
-    }
+    // @media screen and (min-width: 768px) {
+    //     text-align: left;
+    // }
 }
 
 .advantage__text {
@@ -85,4 +127,6 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
+
+    text-align: center;
 }
