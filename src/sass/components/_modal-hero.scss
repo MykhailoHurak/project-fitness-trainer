@@ -269,27 +269,20 @@
 }
 
 .modal__button-form {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+
+    color: #e8f001;
+    background-color: #00bcd4;
+
     display: block;
     margin: 0 auto;
     cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    background: #2196f3;
-    color: #ffffff;
     min-width: 200px;
     min-height: 50px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     border: transparent;
     padding: 0;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:focus,
-    &:hover {
-        background-color: #188ce8;
-    }
 }
