@@ -76,12 +76,12 @@ Sim.prototype.elemNext = function (num) {
 
 Sim.prototype.dotOn = function (num) {
   this.indicatorDotsAll[num].style.cssText =
-    'background-color:#BBB; cursor:pointer;';
+    'background-color:#00c0ca; cursor:pointer;';
 };
 
 Sim.prototype.dotOff = function (num) {
   this.indicatorDotsAll[num].style.cssText =
-    'background-color:#556; cursor:default;';
+    'background-color:#e8f001; cursor:default; transform: scale(1.5);';
 };
 
 Sim.initialize = function (that) {

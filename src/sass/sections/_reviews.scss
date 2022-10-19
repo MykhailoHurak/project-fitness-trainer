@@ -27,7 +27,7 @@
 }
 
 .sim-slider {
-    max-width: 1000px;
+    // max-width: 1000px;
     min-width: 290px;
     margin: 20px auto;
     padding: 30px 50px;
@@ -45,17 +45,18 @@
     padding: 0;
     list-style-type: none;
     position: relative;
+    text-align: center;
 
-    height: 400px; 
+    height: 530px; 
 
     @media screen and (min-width: 480px) {
         font-size: 14px;
-        width: 400px;
+        height: 430px;
     }
     
     @media screen and (min-width: 768px) {
         font-size: 16px;
-        width: 650px;
+        height: 370px;
     }
     
     @media screen and (min-width: 1024px) {
@@ -76,6 +77,12 @@
 
     height: auto;
 }
+
+// .sim-slider-arrow {
+//     width: 20px;
+//     height: 20px;
+//     fill: #00c0ca;
+// }
 
 /* Navigation item styles */
 div.sim-slider-arrow-left,
@@ -126,45 +133,49 @@ span.sim-dot {
     margin: 5px 7px;
     padding: 0;
     display: inline-block;
-    background-color: #BBB;
+    background-color: #00c0ca;
     border-radius: 5px;
     cursor: pointer;
 }
 
 // ==========================================================================================
 
-.reviews__img {
+.review-item__image {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
 }
 
-.reviews__details--title {
+.review-item__title {
     font-weight: 700;
     line-height: 1.86;
     color: #000000;
     text-align: center;
 
-    font-size: 14px;
-    padding-bottom: 10px;
+    font-size: 16px;
+    padding-bottom: 16px;
 
     @media screen and (min-width: 480px) {
-        font-size: 16px;
-        padding-bottom: 12px;
+        font-size: 18px;
+        padding-bottom: 18px;
     }
 
     @media screen and (min-width: 768px) {
-        font-size: 18px;
-        padding-bottom: 14px;
+        font-size: 20px;
+        padding-bottom: 20px;
     }
 
     @media screen and (min-width: 1024px) {
-        font-size: 20px;
-        padding-bottom: 16px;
+        font-size: 22px;
+        padding-bottom: 22px;
     }
 }
 
-.reviews__text {
+.review-item__link {
+    color: #00c0ca;
+}
+
+.review-item__text {
     padding-left: 10px;
     padding-right: 10px;
     font-weight: 500;
@@ -173,24 +184,21 @@ span.sim-dot {
     display: block;
     letter-spacing: 0.04em;
     color: #000000;
-    max-width: 157px;
     overflow: auto;
     max-height: 314px;
 
-    font-size: 12px;
+    font-size: 14px;
 
     @media screen and (min-width: 480px) {
-        font-size: 14px;
-        max-width: max-content;
+        font-size: 16px;
     }
 
     @media screen and (min-width: 768px) {
-        font-size: 16px;
-        max-width: max-content;
+        font-size: 18px;
     }
 
     @media screen and (min-width: 1024px) {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 2.22;
     }
 }
