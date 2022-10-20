@@ -11,7 +11,7 @@ document.getElementById('form-hero').addEventListener('submit', function (event)
     event.preventDefault();
     modalHero.classList.toggle('is-hidden');
     
-    let message = `<b>Кнопка - Головний екран</b>\n`;
+    let message = `<b>Заявка на безкоштовну консультацію</b>\n`;
     message += `<b>Ім'я: ${this.name.value}</b>\n`;
     message += `<b>Телефон: ${this.tel.value}</b>`;
  
@@ -33,7 +33,7 @@ document.getElementById('form-programs1').addEventListener('submit', function (e
     event.preventDefault();
     modalPrograms1.classList.toggle('is-hidden');
     
-    let message = `<b>Формат 1 - Персональні тренування Zoom/Skype</b>\n`;
+    let message = `<b>Персональні тренування Zoom/Skype</b>\n`;
     message += `<b>Ім'я: ${this.name.value}</b>\n`;
     message += `<b>Телефон: ${this.tel.value}</b>`;
  
@@ -55,7 +55,7 @@ document.getElementById('form-programs2').addEventListener('submit', function (e
     event.preventDefault();
     modalPrograms2.classList.toggle('is-hidden');
     
-    let message = `<b>Формат 2 - Онлайн марафон «Пружні сідниці + Струнка талія»</b>\n`;
+    let message = `<b>Онлайн марафон «Пружні сідниці + Струнка талія»</b>\n`;
     message += `<b>Ім'я: ${this.name.value}</b>\n`;
     message += `<b>Телефон: ${this.tel.value}</b>`;
  
@@ -77,7 +77,7 @@ document.getElementById('form-programs3').addEventListener('submit', function (e
     event.preventDefault();
     modalPrograms3.classList.toggle('is-hidden');
     
-    let message = `<b>Формат 3 - Раціон харчування</b>\n`;
+    let message = `<b>Раціон харчування</b>\n`;
     message += `<b>Ім'я: ${this.name.value}</b>\n`;
     message += `<b>Телефон: ${this.tel.value}</b>`;
  
