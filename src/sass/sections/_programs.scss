@@ -170,17 +170,43 @@
 
 .formats__button {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
     display: block;
     margin: 0 auto;
-
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-
     border: none;
     cursor: pointer;
-
     background-color: #ffc800;
+
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    @media screen and (min-width: 480px) {
+    font-size: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 18px;
+    padding-right: 18px;
+    }
+    
+    @media screen and (min-width: 768px) {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    }
+    
+    @media screen and (min-width: 1024px) {
+    font-size: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 18px;
+    padding-right: 18px;
+    }
 }
