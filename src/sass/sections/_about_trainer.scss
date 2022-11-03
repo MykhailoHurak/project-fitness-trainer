@@ -6,9 +6,23 @@
             background-position: center;
             background-size: cover;
 
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)),
-            url(../images/img2.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/hero/hero-background-to-480.png);
+    
+        @media screen and (min-width: 480px) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url(../images/hero/hero-background-to-768.png);
+        }
+    
+        @media screen and (min-width: 768px) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(37, 44, 121, 0.4)),
+                url(../images/hero/hero-background-to-1024.png);
+        }
+    
+        @media screen and (min-width: 1024px) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(37, 44, 121, 0.4)),
+                url(../images/hero/hero-background-to-1280.png);
+        }
 }
 
 .about-trainer__title {
